@@ -70,7 +70,7 @@ hr {
   position: absolute;
   top: 0;
   right: 0;
-  height: 27rem;
+  height: 42rem;
   width: 50%;
   border-bottom-left-radius: 5rem;
 
@@ -161,7 +161,7 @@ hr {
 }
 .hero {
   display: flex;
-  padding-left: 8rem;
+  padding: 10rem 8rem;
 }
 .hero__content {
   width: 100%;
@@ -212,7 +212,7 @@ hr {
   margin-bottom: 4rem;
 }
 .hero__content--text__details {
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-base);
   margin-bottom: 7rem;
 }
 .hero__content--text__btn-container {
