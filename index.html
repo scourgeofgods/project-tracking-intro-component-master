@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Project tracking intro component</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="header layout sec__padd">
+        <nav class="nav">
+          <a href="#" class="nav__logo"
+            ><img src="/assets/images/logo.svg" alt="logo" loading="lazy" />
+          </a>
+          <div class="btn-container">
+            <button class="open">
+              <img src="/assets/images/icon-hamburger.svg" alt="" />
+            </button>
+            <button class="close" type="button">
+              <img src="/assets/images/icon-close.svg" alt="" />
+            </button>
+          </div>
+          <ul class="nav__list">
+            <li class="nav__list--item">
+              <a href="#" class="nav__list--link">Product</a>
+            </li>
+            <li class="nav__list--item">
+              <a href="#" class="nav__list--link">Features</a>
+            </li>
+            <li class="nav__list--item">
+              <a href="#" class="nav__list--link">Pricing</a>
+            </li>
+            <hr />
+            <a href="#" class="nav__list--link login">Login</a>
+          </ul>
+        </nav>
+        <section class="hero">
+          <div class="hero__content">
+            <div class="hero__content--text">
+              <h5 class="hero__content--text__mini-title">
+                <span>New</span> Monograph Dashboard
+              </h5>
+              <h1 class="hero__content--text__title">
+                Powerful insights into your team
+              </h1>
+              <p class="hero__content--text__details">
+                Project planning and time tracking for agile teams
+              </p>
+              <div class="hero__content--text__btn-container">
+                <button type="button" class="demo btn">Schedule a demo</button>
+                <button type="button" class="preview btn">
+                  to see a live preview
+                </button>
+              </div>
+            </div>
+            <div class="hero__content--img">
+              <img
+                src="/assets/images/illustration-devices.svg"
+                alt="hero image"
+              />
+            </div>
+          </div>
+        </section>
+      </header>
+    </main>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
