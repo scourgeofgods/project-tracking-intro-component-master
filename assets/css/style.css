@@ -294,7 +294,9 @@ hr {
   .login {
     color: var(--clr-dark-grayish-blue);
   }
-
+  .hero {
+    padding: 3rem 2rem;
+  }
   .hero__content {
     flex-direction: column-reverse;
     align-items: center;
