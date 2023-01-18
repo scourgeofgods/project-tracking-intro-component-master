@@ -274,13 +274,17 @@ hr {
     padding: 3rem 2rem;
     transform: translateX(-50%);
     left: 50%;
-    top: 10%;
-    width: 38rem;
+    top: 16%;
+    width: 35rem;
     height: 25rem;
     background-color: var(--clr-white);
     border-radius: 1rem;
     text-align: center;
     box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
   }
 
   hr {
@@ -288,7 +292,7 @@ hr {
     height: 1px;
   }
   .login {
-    color: var(--clr-grayish-blue);
+    color: var(--clr-dark-grayish-blue);
   }
 
   .hero__content {
