@@ -171,7 +171,7 @@ hr {
   column-gap: 4rem;
 }
 .hero__content--img {
-  justify-self: flex-end;
+  justify-self: center;
 }
 .hero__content--img img {
   width: 100%;
